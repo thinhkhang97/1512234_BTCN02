@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Gallery from 'react-grid-gallery';
 import axios from 'axios';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import './App.css';
 
 class App extends Component {
 
@@ -11,7 +10,7 @@ class App extends Component {
     this.state = {
       per_page: 20,
       page: 1,
-      api_key: '210faf4ab82b8d0fdd0e13dc09080003',
+      api_key: '77fe3ca2f7e8256245c1410b5c68f1be',
       PHOTO_SET: []
     }
   }
